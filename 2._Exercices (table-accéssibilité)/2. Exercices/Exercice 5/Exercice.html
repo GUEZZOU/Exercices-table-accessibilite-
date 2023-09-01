@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil-planning-hebdomadaire</title>
+  <style>
+    table {
+        border-bottom: 1px solid #ddd;
+        border-collapse: collapse;
+        border-right: 1px solid #ddd;
+        font-size: .85em;
+        margin: 0 0 2em 0;
+        table-layout: fixed;
+        width: 100%;
+        max-width: 60rem;
+    }
+  
+    th,
+    td {
+        border-left: 1px solid #ddd;
+        border-top: 1px solid #ddd;
+        padding: .7em;
+    }
+  
+    th {
+        background: #f3f3f3;
+    }
+  
+    table td {
+        background: #fff;
+        text-align: center;
+    }
+  
+    th[scope="row"] {
+        text-align: left;
+    }
+  
+    caption {
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>
+      Planning hebdomadaire des menus
+    </caption>
+    <thead>
+      <tr>
+        <th style="background-color: aqua;" scope="col" colspan="2"></th>
+        <th  scope="col" id="lundi">LUNDI</th>
+        <th scope="col" id="mardi">MARDI</th>
+        <th scope="col" id="mercredi">MERCREDI</th>
+        <th scope="col" id="judi">JEUDI</th>
+        <th scope="col" id="vendredi">VENDREDI</th>
+        <th scope="col" id="samedi">SANDI</th>
+        <th scope="col" id="dimenche">DIMANCHE</th>
+      </tr>
+    </thead>
+    <tbody>
+            <th style="background-color: #ff1e00;" scope="row" rowspan="4">Midi</th>
+              <tr>
+                <td style="background-color: #2bff00;" headers="lundi">Entrée</td>
+                <td headers="lundi">salade</td>
+                <td headers="mardi">salade</td>
+                <td headers="mardi">salade</td>
+                <td headers="mercredi">salade</td>
+                <td headers="mercredi">salade</td>
+              </tr>
+                <!-- ********************************************* -->
+                <tr> 
+          
+                  <td style="background-color: #2bff00;" headers="lundi">Plat</td>
+                  <td headers="lundi">riz</td>
+                  <td headers="mardi">riz</td>
+                  <td headers="mardi">riz</td>
+                  <td headers="mercredi">riz</td>
+                  <td headers="mercredi">riz</td>
+                </tr> 
+                <!-- ********************************* -->
+                <tr>
+                  <td style="background-color: #2bff00;" headers="lundi">Dessert</td>
+                  <td headers="lundi">fruits</td>
+                  <td headers="mardi">fruits</td>
+                  <td headers="mardi">fruits</td>
+                  <td headers="mercredi">fruits</td>
+                  <td headers="mercredi">fruits</td>
+                </tr>
+        
+            <!-- *************************************** -->
+            <th style="background-color: #ff1e00;" scope="row" rowspan="4">Soir</th>
+              <tr>
+                  <td style="background-color: #2bff00;" headers="lundi">Entrée</td>
+                  <td headers="lundi">Soupe</td>
+                  <td headers="mardi">Soupe</td>
+                  <td headers="mardi">Soupe</td>
+                  <td headers="mercredi">Soupe</td>
+                  <td headers="mercredi">Soupe</td>
+              </tr>
+              <tr>
+                  <td style="background-color: #2bff00;" headers="lundi">Plat</td>
+                  <td headers="lundi">Légumes</td>
+                <td headers="mardi">Légumes</td>
+                  <td headers="mardi">Légumes</td>
+                  <td headers="mercredi">Légumes</td>
+                  <td headers="mercredi">Légumes</td>
+                
+              </tr> 
+              <!-- ***************************** -->
+        
+                <tr>
+                  <td style="background-color: #2bff00;" headers="lundi">Dessert</td>
+                  <td headers="lundi">yaourt</td>
+                  <td headers="mardi">yaourt</td>
+                  <td headers="mardi">yaourt</td>
+                  <td headers="mercredi">yaourt</td>
+                  <!-- <td  headers="mercredi"><input style="border:1px solid #2200ff;" type="text"></td>
+                  <td  headers="mercredi"><input style="border:1px solid #2200ff;" type="text"></td> -->
+                </tr>
+    </tbody>
+  </table>
+</body>
+</html>
